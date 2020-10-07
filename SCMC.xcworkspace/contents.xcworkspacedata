@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Loader App/Loader App.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Loader Scripting Addition/Loader Scripting Addition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Dock Plugin/Dock Plugin.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Preference Pane/Preference Pane.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Shared/Shared.xcodeproj">
+   </FileRef>
+</Workspace>

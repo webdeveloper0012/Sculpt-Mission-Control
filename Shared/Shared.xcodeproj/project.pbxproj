@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171CFB3B2005538200B7C645 /* SCMCEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CFB372005538200B7C645 /* SCMCEventSpec.m */; };
+		171CFB3C2005538200B7C645 /* SCMCEventSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CFB372005538200B7C645 /* SCMCEventSpec.m */; };
+		171CFB3D2005538200B7C645 /* SCMCConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CFB392005538200B7C645 /* SCMCConfiguration.m */; };
+		171CFB3E2005538200B7C645 /* SCMCConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 171CFB392005538200B7C645 /* SCMCConfiguration.m */; };
+		1725BE89200458BD00D7A881 /* PreferencePaneNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1725BE88200458BD00D7A881 /* PreferencePaneNames.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1725BE8A200458BF00D7A881 /* PreferencePaneNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 1725BE88200458BD00D7A881 /* PreferencePaneNames.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		172B0A1B2059951000C6B521 /* SCMCEventTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 172B0A192059951000C6B521 /* SCMCEventTapListener.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		172B0A1C2059951000C6B521 /* SCMCEventTapListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 172B0A1A2059951000C6B521 /* SCMCEventTapListener.m */; };
+		172B0A232059A4A000C6B521 /* SCMCEventTapListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 172B0A192059951000C6B521 /* SCMCEventTapListener.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		172B0A242059A4A200C6B521 /* SCMCEventTapListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 172B0A1A2059951000C6B521 /* SCMCEventTapListener.m */; };
+		1739B869205AE55200910CE7 /* SCMCHidListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 178E95B0205946E500407688 /* SCMCHidListener.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1739B86A205AE55400910CE7 /* SCMCHidListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E95B1205946E500407688 /* SCMCHidListener.m */; };
+		175F4CAE200ADC9800EC8475 /* SCMCConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 171CFB382005538200B7C645 /* SCMCConfiguration.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		175F4CAF200ADC9800EC8475 /* SCMCEventSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 171CFB3A2005538200B7C645 /* SCMCEventSpec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		175F4CB0200ADC9900EC8475 /* SCMCConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 171CFB382005538200B7C645 /* SCMCConfiguration.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		175F4CB1200ADC9900EC8475 /* SCMCEventSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 171CFB3A2005538200B7C645 /* SCMCEventSpec.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		178E95B2205946E500407688 /* SCMCHidListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 178E95B0205946E500407688 /* SCMCHidListener.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		178E95B3205946E500407688 /* SCMCHidListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 178E95B1205946E500407688 /* SCMCHidListener.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		171CFB372005538200B7C645 /* SCMCEventSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMCEventSpec.m; sourceTree = "<group>"; };
+		171CFB382005538200B7C645 /* SCMCConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMCConfiguration.h; sourceTree = "<group>"; };
+		171CFB392005538200B7C645 /* SCMCConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMCConfiguration.m; sourceTree = "<group>"; };
+		171CFB3A2005538200B7C645 /* SCMCEventSpec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMCEventSpec.h; sourceTree = "<group>"; };
+		1725BE722004533700D7A881 /* libSharedForPreferencePane.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSharedForPreferencePane.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725BE88200458BD00D7A881 /* PreferencePaneNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencePaneNames.h; sourceTree = "<group>"; };
+		172B0A192059951000C6B521 /* SCMCEventTapListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMCEventTapListener.h; sourceTree = "<group>"; };
+		172B0A1A2059951000C6B521 /* SCMCEventTapListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMCEventTapListener.m; sourceTree = "<group>"; };
+		172B0A202059A38400C6B521 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		172DE2FA20043FAD0069FEBB /* libShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		178E95B0205946E500407688 /* SCMCHidListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCMCHidListener.h; sourceTree = "<group>"; };
+		178E95B1205946E500407688 /* SCMCHidListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCMCHidListener.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1725BE6F2004533700D7A881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172DE2F720043FAD0069FEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172DE2F120043FAD0069FEBB = {
+			isa = PBXGroup;
+			children = (
+				172DE2FC20043FAD0069FEBB /* Sources */,
+				172DE2FB20043FAD0069FEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172DE2FB20043FAD0069FEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172DE2FA20043FAD0069FEBB /* libShared.a */,
+				1725BE722004533700D7A881 /* libSharedForPreferencePane.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172DE2FC20043FAD0069FEBB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				172B0A202059A38400C6B521 /* PrefixHeader.pch */,
+				1725BE88200458BD00D7A881 /* PreferencePaneNames.h */,
+				171CFB382005538200B7C645 /* SCMCConfiguration.h */,
+				171CFB392005538200B7C645 /* SCMCConfiguration.m */,
+				171CFB3A2005538200B7C645 /* SCMCEventSpec.h */,
+				171CFB372005538200B7C645 /* SCMCEventSpec.m */,
+				178E95B0205946E500407688 /* SCMCHidListener.h */,
+				178E95B1205946E500407688 /* SCMCHidListener.m */,
+				172B0A192059951000C6B521 /* SCMCEventTapListener.h */,
+				172B0A1A2059951000C6B521 /* SCMCEventTapListener.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1725BE702004533700D7A881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1739B869205AE55200910CE7 /* SCMCHidListener.h in Headers */,
+				1725BE8A200458BF00D7A881 /* PreferencePaneNames.h in Headers */,
+				175F4CB0200ADC9900EC8475 /* SCMCConfiguration.h in Headers */,
+				175F4CB1200ADC9900EC8475 /* SCMCEventSpec.h in Headers */,
+				172B0A232059A4A000C6B521 /* SCMCEventTapListener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172DE2F820043FAD0069FEBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725BE89200458BD00D7A881 /* PreferencePaneNames.h in Headers */,
+				178E95B2205946E500407688 /* SCMCHidListener.h in Headers */,
+				175F4CAE200ADC9800EC8475 /* SCMCConfiguration.h in Headers */,
+				175F4CAF200ADC9800EC8475 /* SCMCEventSpec.h in Headers */,
+				172B0A1B2059951000C6B521 /* SCMCEventTapListener.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1725BE712004533700D7A881 /* SharedForPreferencePane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1725BE782004533800D7A881 /* Build configuration list for PBXNativeTarget "SharedForPreferencePane" */;
+			buildPhases = (
+				1725BE6E2004533700D7A881 /* Sources */,
+				1725BE6F2004533700D7A881 /* Frameworks */,
+				1725BE702004533700D7A881 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedForPreferencePane;
+			productName = SharedPrefixedNames;
+			productReference = 1725BE722004533700D7A881 /* libSharedForPreferencePane.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		172DE2F920043FAD0069FEBB /* Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172DE30320043FAD0069FEBB /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildPhases = (
+				172DE2F620043FAD0069FEBB /* Sources */,
+				172DE2F720043FAD0069FEBB /* Frameworks */,
+				172DE2F820043FAD0069FEBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shared;
+			productName = Shared;
+			productReference = 172DE2FA20043FAD0069FEBB /* libShared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172DE2F220043FAD0069FEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = deej;
+				TargetAttributes = {
+					1725BE712004533700D7A881 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					172DE2F920043FAD0069FEBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 172DE2F520043FAD0069FEBB /* Build configuration list for PBXProject "Shared" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 172DE2F120043FAD0069FEBB;
+			productRefGroup = 172DE2FB20043FAD0069FEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172DE2F920043FAD0069FEBB /* Shared */,
+				1725BE712004533700D7A881 /* SharedForPreferencePane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1725BE6E2004533700D7A881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172B0A242059A4A200C6B521 /* SCMCEventTapListener.m in Sources */,
+				171CFB3E2005538200B7C645 /* SCMCConfiguration.m in Sources */,
+				1739B86A205AE55400910CE7 /* SCMCHidListener.m in Sources */,
+				171CFB3C2005538200B7C645 /* SCMCEventSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172DE2F620043FAD0069FEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172B0A1C2059951000C6B521 /* SCMCEventTapListener.m in Sources */,
+				171CFB3D2005538200B7C645 /* SCMCConfiguration.m in Sources */,
+				178E95B3205946E500407688 /* SCMCHidListener.m in Sources */,
+				171CFB3B2005538200B7C645 /* SCMCEventSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1725BE792004533800D7A881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					FOR_PREFERENCE_PANE,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1725BE7A2004533800D7A881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		172DE30120043FAD0069FEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Sources/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRIVATE_HEADERS_FOLDER_PATH = "lib$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		172DE30220043FAD0069FEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = Sources/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRIVATE_HEADERS_FOLDER_PATH = "lib$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		172DE30420043FAD0069FEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		172DE30520043FAD0069FEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1725BE782004533800D7A881 /* Build configuration list for PBXNativeTarget "SharedForPreferencePane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1725BE792004533800D7A881 /* Debug */,
+				1725BE7A2004533800D7A881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172DE2F520043FAD0069FEBB /* Build configuration list for PBXProject "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172DE30120043FAD0069FEBB /* Debug */,
+				172DE30220043FAD0069FEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172DE30320043FAD0069FEBB /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172DE30420043FAD0069FEBB /* Debug */,
+				172DE30520043FAD0069FEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172DE2F220043FAD0069FEBB /* Project object */;
+}
